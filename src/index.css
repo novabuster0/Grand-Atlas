@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+    themes: light --default;
+}
+
+@theme {
+    --font-Lato: "Lato";
+    --font-playfair-display: "Playfair Display";
+}
+
+.slider-container .slick-list {
+    overflow: visible;
+}
+
+.slider-container .slick-track {
+    display: flex;
+}
+
+.slider-container .slick-slide {
+    height: auto;
+}
+
+.slider-container .slick-slide>div {
+    height: 100%;
+}
