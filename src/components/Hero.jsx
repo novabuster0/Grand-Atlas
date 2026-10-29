@@ -13,22 +13,21 @@ export default function Hero({
     showBtn = true,
 }) {
     const isMobile = useMediaQuery({ maxWidth: 767 });
-    console.log(isMobile);
 
     return (
         <div
             id="hero"
-            className="h-screen bg-cover relative flex flex-col justify-center items-center bg-[rgba(0,0,0,0.5)]
+            className="h-screen w-screen bg-cover relative flex flex-col justify-center items-center bg-[rgba(0,0,0,0.5)]
                         not-md:w-full"
             style={{ backgroundImage: `url(${Hook})` }}
         >
             <h1
-                className="md:w-[50%] w-full font-playfair-display text-center text-[48px] font-bold text-[#EEEEEE] mb-8.25
+                className="md:w-[75%] w-full font-playfair-display text-center text-[48px] font-bold text-[#EEEEEE] mb-8.25
                             not-md:text-2xl"
             >
                 {HT}
             </h1>
-            <p className="md:w-[50%] w-full text-center text-[20px] font-bold font-['Lato'] text-[#CEC7C7] mb-12.5">
+            <p className="md:w-[75%] w-full text-center text-[20px] font-bold font-['Lato'] text-[#CEC7C7] mb-12.5">
                 {PT}
             </p>
             {showBtn && <Button children={BT} />}

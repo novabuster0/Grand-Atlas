@@ -10,6 +10,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ZoneProjects from "./pages/zones/ZoneProjects";
 import ProjectDetails from "./pages/zones/ProjectDetails";
+import Developers from "./pages/developers/Developers";
+import DeveloperDetails from "./pages/developers/sections/DeveloperDetails";
 
 function App() {
     window.onbeforeunload = () => {
@@ -25,6 +27,11 @@ function App() {
                     <Route path="zones" element={<Zones />} />
                     <Route path="zones/:id" element={<ZoneProjects />} />
                     <Route path="projects/:id" element={<ProjectDetails />} />
+                    <Route path="developers" element={<Developers />} />
+                    <Route
+                        path="developers/:id"
+                        element={<DeveloperDetails />}
+                    />
                     <Route path="contactus" element={<Contactus />} />
                 </Route>
             </Routes>

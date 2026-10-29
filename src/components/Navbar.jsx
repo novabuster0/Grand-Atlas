@@ -10,6 +10,7 @@ export default function Navbar() {
             <NavbarItem to="\" name={"Home"} />
             <NavbarItem to="\units" name={"Units"} />
             <NavbarItem to="\zones" name={"Zones"} />
+            <NavbarItem to="\developers" name={"Developers"} />
             <NavbarItem to="\contactus" name={"Contact Us"} />
         </ul>
     );

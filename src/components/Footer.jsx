@@ -3,7 +3,7 @@ export default function Footer() {
     return (
         <div
             id="footer"
-            className="bg-[#EBEBEB] flex flex-col items-center w-full"
+            className="bg-[#EBEBEB] pt-10 flex flex-col items-center w-full"
         >
             <div className="w-full flex items-start justify-around not-md:flex-col not-md:items-center not-md:gap-5">
                 <div id="logo" className="">
