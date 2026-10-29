@@ -1,6 +1,6 @@
 import Button from "./Button";
 import Navbar from "./Navbar";
-
+import Logo from "/src/assets/icons/Logo_Option.svg";
 export default function Header() {
     return (
         // pr-9
@@ -10,7 +10,7 @@ export default function Header() {
                         not-md:flex-col not-md:mb-5 md:gap-60 md:mr-9"
         >
             <img
-                src="/src/assets/icons/Logo Option.svg"
+                src={Logo}
                 width={"116px"}
                 alt="Logo"
                 id="logo"

@@ -1,4 +1,5 @@
 import NavbarItem from "./NavbarItem";
+import Logo from "/src/assets/icons/Logo Option.svg";
 export default function Footer() {
     return (
         <div
@@ -7,11 +8,7 @@ export default function Footer() {
         >
             <div className="w-full flex items-start justify-around not-md:flex-col not-md:items-center not-md:gap-5">
                 <div id="logo" className="">
-                    <img
-                        src="/src/assets/icons/Logo Option.svg"
-                        width={"151px"}
-                        alt="Icon"
-                    />
+                    <img src={Logo} width={"151px"} alt="Icon" />
                     <div
                         id="contact"
                         className="relative -top-4 flex flex-col gap-5.75 font-normal text-[#0A142F]"
