@@ -1,8 +1,8 @@
 import NavbarItem from "./NavbarItem";
 import Logo from "../assets/icons/Logo_Option.svg";
-import twitterIcon from "src\assets\images\Twitter.svg";
-import facebookIcon from "src\assets\images\Facebook.svg";
-import linkedIn from "src\assets\images\Linkedin.svg";
+import twitterIcon from "../assets/icons/twitterIcon.svg";
+import facebookIcon from "../assets/icons/facebookIcon.svg";
+import linkedIn from "../assets/icons/Linkedin.svg";
 export default function Footer() {
     return (
         <div
