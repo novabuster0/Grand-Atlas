@@ -1,5 +1,8 @@
 import NavbarItem from "./NavbarItem";
 import Logo from "../assets/icons/Logo_Option.svg";
+import twitterIcon from "src\assets\images\Twitter.svg";
+import facebookIcon from "src\assets\images\Facebook.svg";
+import linkedIn from "src\assets\images\Linkedin.svg";
 export default function Footer() {
     return (
         <div
@@ -86,11 +89,7 @@ export default function Footer() {
                                 id="linkedin"
                                 className="w-7.75 h-7.75 flex justify-center items-center border-3 border-[rgba(142,22,22,0.1)] rounded-full"
                             >
-                                <img
-                                    src="../assets/images/Linkedin.svg"
-                                    width={"12px"}
-                                    alt=""
-                                />
+                                <img src={linkedIn} width={"12px"} alt="" />
                             </li>
                         </a>
                         <a href="#">
@@ -98,11 +97,7 @@ export default function Footer() {
                                 id="facebook"
                                 className="w-7.75 h-7.75 flex justify-center items-center border-3 border-[rgba(142,22,22,0.1)] rounded-full"
                             >
-                                <img
-                                    src="../assets/images/Facebook.svg"
-                                    width={"7px"}
-                                    alt=""
-                                />
+                                <img src={facebookIcon} width={"7px"} alt="" />
                             </li>
                         </a>
                         <a href="#">
@@ -110,11 +105,7 @@ export default function Footer() {
                                 id="twitter"
                                 className="w-7.75 h-7.75 flex justify-center items-center border-3 border-[rgba(142,22,22,0.1)] rounded-full"
                             >
-                                <img
-                                    src="../assets/images/Twitter.svg"
-                                    width={"12px"}
-                                    alt=""
-                                />
+                                <img src={twitterIcon} width={"12px"} alt="" />
                             </li>
                         </a>
                     </ul>
