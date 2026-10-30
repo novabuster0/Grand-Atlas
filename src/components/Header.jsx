@@ -1,6 +1,6 @@
 import Button from "./Button";
 import Navbar from "./Navbar";
-import Logo from "/src/assets/icons/Logo_Option.svg";
+import Logo from "../assets/icons/Logo_Option.svg";
 export default function Header() {
     return (
         // pr-9

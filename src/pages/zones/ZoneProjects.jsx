@@ -41,7 +41,10 @@ export default function ZoneProjects() {
                             className="w-full h-full object-cover object-center rounded-3xl"
                         />
                     </div>
-                    <div id="zone-projects-body">
+                    <div
+                        id="zone-projects-body"
+                        className="flex flex-wrap justify-around w-full"
+                    >
                         {zoneData.projects.map((project) => {
                             const proberties = {
                                 Units: {

@@ -1,5 +1,5 @@
 import NavbarItem from "./NavbarItem";
-import Logo from "/src/assets/icons/Logo Option.svg";
+import Logo from "../assets/icons/Logo_Option.svg";
 export default function Footer() {
     return (
         <div
