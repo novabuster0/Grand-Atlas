@@ -87,7 +87,7 @@ export default function Footer() {
                                 className="w-7.75 h-7.75 flex justify-center items-center border-3 border-[rgba(142,22,22,0.1)] rounded-full"
                             >
                                 <img
-                                    src="/src/assets/images/Linkedin.svg"
+                                    src="../assets/images/Linkedin.svg"
                                     width={"12px"}
                                     alt=""
                                 />
@@ -99,7 +99,7 @@ export default function Footer() {
                                 className="w-7.75 h-7.75 flex justify-center items-center border-3 border-[rgba(142,22,22,0.1)] rounded-full"
                             >
                                 <img
-                                    src="/src/assets/images/Facebook.svg"
+                                    src="../assets/images/Facebook.svg"
                                     width={"7px"}
                                     alt=""
                                 />
@@ -111,7 +111,7 @@ export default function Footer() {
                                 className="w-7.75 h-7.75 flex justify-center items-center border-3 border-[rgba(142,22,22,0.1)] rounded-full"
                             >
                                 <img
-                                    src="/src/assets/images/Twitter.svg"
+                                    src="../assets/images/Twitter.svg"
                                     width={"12px"}
                                     alt=""
                                 />
