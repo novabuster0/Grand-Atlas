@@ -22,12 +22,12 @@ export default function Hero({
             style={{ backgroundImage: `url(${Hook})` }}
         >
             <h1
-                className="md:w-[75%] w-full font-playfair-display text-center text-[48px] font-bold text-[#EEEEEE] mb-8.25
+                className="md:w-[40%] w-full text-wrap font-playfair-display text-center text-[48px] font-bold text-[#EEEEEE] mb-8.25
                             not-md:text-2xl"
             >
                 {HT}
             </h1>
-            <p className="md:w-[75%] w-full text-center text-[20px] font-bold font-['Lato'] text-[#CEC7C7] mb-12.5">
+            <p className="md:w-[65%] w-full text-center text-[20px] font-bold font-['Lato'] text-[#CEC7C7] mb-12.5">
                 {PT}
             </p>
             {showBtn && <Button children={BT} />}
@@ -36,20 +36,24 @@ export default function Hero({
                     id="social"
                     className="absolute bottom-30 left-9 flex flex-col gap-5.5"
                 >
-                    <div className="flex justify-center items-center rounded-full border-3 border-white p-2">
-                        <img src={fb} className="w-7" />
-                    </div>
-                    <div className="flex justify-center items-center rounded-full border-3 border-white p-2">
-                        <img src={x} className="w-6" />
-                    </div>
-                    <div className="flex justify-center items-center rounded-full border-3 border-white p-2">
-                        <img src={insta} className="w-7" />
-                    </div>
-                    <div className="flex justify-center items-center rounded-full border-3 border-white p-2">
-                        <img src={tiktok} className="w-7" />
-                    </div>
+                    <Icon img={fb} href={"https://www.facebook.com"} />
+                    <Icon img={x} href={"https://www.x.com"} />
+                    <Icon img={insta} href={"https://www.instagram.com"} />
+                    <Icon img={tiktok} href={"https://www.tiktok.com"} />
                 </div>
             )}
         </div>
+    );
+}
+
+function Icon({ img, href }) {
+    return (
+        <a
+            className="flex justify-center items-center rounded-full  border-3 border-white p-2
+                    hover:border-[#8E1616] hover:cursor-pointer transition-all "
+            href={href}
+        >
+            <img src={img} className="w-full" />
+        </a>
     );
 }

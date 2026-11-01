@@ -26,7 +26,7 @@ export default function About() {
                     className="border-5 border-[#8E1616] rounded-t-[100px]"
                 />
                 <div id="section-body-info" className="flex flex-col gap-23">
-                    <p className="text-center not-md:text-start text-2xl font-normal text-[#554E4E] leading-[150%]">
+                    <p className="text-start text-2xl font-normal text-[#554E4E] leading-[150%]">
                         We began with a singular, uncompromising vision: to
                         bridge the gap between world-class architecture and the
                         individuals who define our global culture. We recognized

@@ -24,3 +24,12 @@
 .slider-container .slick-slide>div {
     height: 100%;
 }
+#navbar-container:has(#menu-toggle:checked) #header-navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+@media (width <=768px) {}

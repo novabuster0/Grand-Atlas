@@ -33,31 +33,25 @@ export default function LandMarks() {
                         <DeveloperCard
                             btnText={"testing"}
                             img={palmhillsProject}
-                            developerImg={palmhillsLogo}
+                            developerInfo={{ developerImg: palmhillsLogo }}
                             badgeText={"new cairo"}
                         />
                         <DeveloperCard
                             btnText={"testing"}
-                            img={hayahcityProject}
-                            developerImg={palmhillsLogo}
+                            img={palmhillsProject}
+                            developerInfo={{ developerImg: palmhillsLogo }}
                             badgeText={"new cairo"}
                         />
                         <DeveloperCard
                             btnText={"testing"}
-                            img={hayahcityProject}
-                            developerImg={palmhillsLogo}
+                            img={palmhillsProject}
+                            developerInfo={{ developerImg: palmhillsLogo }}
                             badgeText={"new cairo"}
                         />
                         <DeveloperCard
                             btnText={"testing"}
-                            img={hayahcityProject}
-                            developerImg={palmhillsLogo}
-                            badgeText={"new cairo"}
-                        />
-                        <DeveloperCard
-                            btnText={"testing"}
-                            img={hayahcityProject}
-                            developerImg={palmhillsLogo}
+                            img={palmhillsProject}
+                            developerInfo={{ developerImg: palmhillsLogo }}
                             badgeText={"new cairo"}
                         />
                     </Slider>

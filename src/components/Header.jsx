@@ -17,7 +17,7 @@ export default function Header() {
                 className="md:mr-1 "
             />
             <Navbar />
-            <Button children={"Register"} />
+            <Button children={"Register"} classes={"max-w-[150px]"} />
         </div>
     );
 }

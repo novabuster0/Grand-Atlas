@@ -89,7 +89,7 @@ export default function Footer() {
                                 id="linkedin"
                                 className="w-7.75 h-7.75 flex justify-center items-center border-3 border-[rgba(142,22,22,0.1)] rounded-full"
                             >
-                                <img src={linkedIn} width={"12px"} alt="" />
+                                <img src={linkedIn} width={"12px"} alt="0" />
                             </li>
                         </a>
                         <a href="#">
@@ -97,7 +97,7 @@ export default function Footer() {
                                 id="facebook"
                                 className="w-7.75 h-7.75 flex justify-center items-center border-3 border-[rgba(142,22,22,0.1)] rounded-full"
                             >
-                                <img src={facebookIcon} width={"7px"} alt="" />
+                                <img src={facebookIcon} width={"7px"} alt="0" />
                             </li>
                         </a>
                         <a href="#">
@@ -105,7 +105,7 @@ export default function Footer() {
                                 id="twitter"
                                 className="w-7.75 h-7.75 flex justify-center items-center border-3 border-[rgba(142,22,22,0.1)] rounded-full"
                             >
-                                <img src={twitterIcon} width={"12px"} alt="" />
+                                <img src={twitterIcon} width={"12px"} alt="0" />
                             </li>
                         </a>
                     </ul>
