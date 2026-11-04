@@ -3,7 +3,7 @@ import NavbarItem from "./NavbarItem";
 
 export default function Navbar() {
     return (
-        <div className="w-full" id="navbar-container">
+        <div className="w-screen" id="navbar-container">
             <div id="hamburger-btn" className="w-full md:hidden relative">
                 <label className=" btn btn-circle swap swap-rotate">
                     {/* this hidden checkbox controls the state */}

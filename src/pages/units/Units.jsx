@@ -18,7 +18,6 @@ export default function Units() {
             const data = response.data;
             setUnits(data);
             SetSearchUnits(data);
-            console.log(data);
 
             setloading(false);
         }

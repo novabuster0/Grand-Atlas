@@ -17,7 +17,7 @@ export default function Hero({
     return (
         <div
             id="hero"
-            className="h-screen w-screen bg-cover relative flex flex-col justify-center items-center bg-[rgba(0,0,0,0.5)]
+            className="h-screen w-full bg-cover bg-center relative flex flex-col justify-center items-center bg-[rgba(0,0,0,0.5)]
                         not-md:w-full"
             style={{ backgroundImage: `url(${Hook})` }}
         >
@@ -52,6 +52,7 @@ function Icon({ img, href }) {
             className="flex justify-center items-center rounded-full  border-3 border-white p-2
                     hover:border-[#8E1616] hover:cursor-pointer transition-all "
             href={href}
+            target="_blank"
         >
             <img src={img} className="w-full" />
         </a>

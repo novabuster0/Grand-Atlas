@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 
 export default function DeveloperCard({
     img,
-    developerInfo ,
+    developerInfo = {},
     badgeText,
     developerId,
 }) {
-    console.log(Object.keys(developerInfo).length);
-    
+    // console.log(Object.keys(developerInfo).length);
+
     return (
         <div className="card relative bg-base-100 max-w-110.5 max-h-106.5 shadow-sm not-md:w-[80%] md:w-fit mx-auto">
             <figure className="">
@@ -22,7 +22,7 @@ export default function DeveloperCard({
             </figure>
             <div className="card-body">
                 <div id="developer-info" className="">
-                    {Object.keys(developerInfo).length != 1 ? (
+                    {Object.keys(developerInfo).length > 1 ? (
                         <div>
                             <img
                                 src={developerInfo["developerImg"]}
@@ -37,11 +37,11 @@ export default function DeveloperCard({
                             </p>
                         </div>
                     ) : (
-                            <img
-                                src={developerInfo["developerImg"]}
-                                alt="Developer"
-                                className="max-w-49 w-full"
-                            />
+                        <img
+                            src={developerInfo["developerImg"]}
+                            alt="Developer"
+                            className="max-w-49 w-full"
+                        />
                     )}
                 </div>
                 <Link

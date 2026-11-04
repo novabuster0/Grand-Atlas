@@ -35,7 +35,9 @@ export default function Developers() {
                             return (
                                 <DeveloperCard
                                     img={developer.images[0]}
-                                    developerImg={palmhillsLogo}
+                                    developerInfo={{
+                                        developerImg: palmhillsLogo,
+                                    }}
                                     badgeText={"NewCairo"}
                                     developerId={developer.id}
                                 />
@@ -45,7 +47,9 @@ export default function Developers() {
                             return (
                                 <DeveloperCard
                                     img={developer.images[0]}
-                                    developerImg={palmhillsLogo}
+                                    developerInfo={{
+                                        developerImg: palmhillsLogo,
+                                    }}
                                     badgeText={"NewCairo"}
                                     developerId={developer.id}
                                 />

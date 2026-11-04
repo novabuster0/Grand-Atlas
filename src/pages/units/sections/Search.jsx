@@ -5,9 +5,7 @@ import Button from "../../../components/Button";
 import { handleSearch } from "/src/utils/Functions.js";
 import { twMerge } from "tailwind-merge";
 export default function Search({ zones = [1, 2, 3], setter, units }) {
-    const pricerangeList = [
-        0, 10000, 50000, 100000, 500000, 1000000, 1000000000,
-    ];
+    const pricerangeList = [500000, 1000000, 10000000, 20000000];
     const status = ["upcoming", "available", "soldout"];
     const bedrooms = [undefined, 3, 5, 7, 10];
     const bathrooms = [undefined, 3, 5, 7, 10];
@@ -27,25 +25,7 @@ export default function Search({ zones = [1, 2, 3], setter, units }) {
                         text-[#BEBEBE] font-bold text-2xl
                         border-[#8E1616] border rounded-lg"
             >
-                <div
-                    id="searchByName"
-                    className="relative min-w-81.5 pl-6 border border-[#8E1616] rounded-r-none rounded-lg"
-                >
-                    <label
-                        htmlFor="searchProbName"
-                        className="absolute  flex justify-between p-5.75 items-center w-full h-full    "
-                    >
-                        <p></p>
-                        <img src={searchImg} alt="" className="w-[32.5px]" />
-                    </label>
-                    <input
-                        id="searchProbName"
-                        name="searchProbName"
-                        type="text"
-                        className="h-20.75 w-full focus:outline-none"
-                        placeholder="Search Property"
-                    />
-                </div>
+
 
                 <SelectFilter
                     name={"bedrooms"}

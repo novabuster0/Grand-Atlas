@@ -6,7 +6,7 @@ export default function Header() {
         // pr-9
         <div
             id="navbar"
-            className="min-h-26.25 flex items-center justify-between  font-Lato
+            className="min-h-26.25  flex items-center justify-between  font-Lato
                         not-md:flex-col not-md:mb-5 md:gap-60 md:mr-9"
         >
             <img
